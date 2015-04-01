@@ -11,7 +11,7 @@ include_recipe 'php'
 
 # apc user cache
 package 'gcc'
-php_pear "apu" do
+php_pear "apcu" do
   action :install
   version "4.0.7"
   directives(:shm_size => 128, :enable_cli => 1)
