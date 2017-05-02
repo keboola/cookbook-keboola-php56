@@ -1,3 +1,3 @@
-keboola-php Cookbook
+Deprecated
 ====================
-Keboola PHP customized cookbook
+Moved to Docker.
