@@ -3,5 +3,5 @@ default['php']['packages'] = %w{ php56 php56-opcache php56-devel php-pear php56-
 default['php']['directives'] = {
     'date.timezone' => 'Europe/Prague',
     'always_populate_raw_post_data' => '-1',
-    'memory_limit' => '256M'
+    'memory_limit' => '512M'
 }
